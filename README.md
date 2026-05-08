@@ -1,7 +1,6 @@
 # patterns
 
 ---
-
 ## Prerequisites
 Make sure you have these installed before starting:
 
@@ -11,9 +10,7 @@ Make sure you have these installed before starting:
 - A [Supabase](https://supabase.com) account
 
 ---
-
 ## 1. Backend setup
-
 ```bash
 cd backend
 
@@ -37,9 +34,6 @@ uvicorn main:app --reload
 ```
 
 ## 2. Mobile setup
-
-Open a new terminal tab, then:
-
 ```bash
 cd mobile
 npm install
@@ -64,9 +58,7 @@ npx expo start
 Scan the QR code with Expo Go on your phone. Make sure your phone and computer are on the same WiFi network.
 
 ---
-
 ## Environment Variables
-
 Supabase keys can be found in your project dashboard under **Settings → Data API**.
 
 | Variable | Where to find it |
